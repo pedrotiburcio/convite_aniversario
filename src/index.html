@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convite Aniversário - Pedro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <section class="hero .image-opacity">
+        <div class="container">
+            <div class="hero__texts" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2500">
+                <h2 class="hero__texts__text">Convite para assoprar velas!</h2>
+                <h1 class="hero__texts__text">Meu aniversário começa em... <span class="texto-destaque" id="counter"></span></h1>
+            </div>
+            <ul class="hero__list" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <li class="hero__list__item">
+                    <b>Local:</b>
+                    Blue House Eventos - Cabo Branco - João Pessoa
+                </li>
+                <li class="hero__list__item">
+                    <b>Data:</b>
+                    27/03/2024
+                </li>
+                <li class="hero__list__item">
+                    <b>Valor:</b>
+                    Inestimável =]
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
